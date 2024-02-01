@@ -1,8 +1,10 @@
 ---
-title: "test"
+title: "PA446_test"
 author: "Zhiwei Xin"
 date: "2024-02-01"
-output: html_document
+output:
+  prettydoc::html_pretty:
+    theme: cayman
 ---
 
 ```{r setup, include=FALSE}
